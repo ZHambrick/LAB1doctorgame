@@ -1,0 +1,8 @@
+# LAB1doctorgame
+Lab 1 of CIS 129 - Spring 2018 Semester
+
+This is the readme for the first Lab of CIS 129 Spring 2018 semester.  This game asks the user for a name which is then used to refer to them throughout the session of play.  The user is instructed that there is a patient dying of a disease and as the doctor they must pick the proper medicine to cure the patient.  The proper medicine is randomly determined by the game at the beginning of each stage of play and the user is asked to input a number.  If the number properly matches the disease then the game is won and the game displays a "win" message.  If the user chooses the incorrect medicine the patient takes a certain amount of damage (in this particular case 1/3rd of his maximum health) and the game continues by asking the user again.  If the user picks the correct number at least once they succeed, however if they fail to pick the correct medicine before the patient's health is depleted they lose the game and a "lose" message is displayed.  The game uses a data validation script offered by the instructor and it was used in this version of the game.  
+
+This game is written in JAVA an incorporates If-Then statements, random number generation, display statements, modules and functions, global constants, boolean statements, camelCase naming conventions, and detailed comments.
+
+This is version 2 of this lab.  The first version was written in pseudocode by hand and then translated into java.  Due to time constraints version 1 was difficult to read and not particularly efficient.  This first rewrite was designed in order to better organize the code for ease of debugging as well as practice.
